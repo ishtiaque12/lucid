@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    position: relative;
+    padding: 0;
+    margin: 25px;
+}
+.navbar-light .navbar-nav .nav-link::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: red;
+    height: 2px;
+    width: 0%;
+    transition: .4s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover::before{
+    width: 50%;
+}
+header h5{
+
+color: #008ed6;
+
+text-transform: uppercase;
+
+font-size: 14px;
+
+margin-bottom: 15px;
+}
+header h1{
+
+color: #fff;
+
+margin-bottom: 20px;
+}
+header p{
+
+color: #999999;
+
+margin-bottom: 50px;
+}
+.btn-download{
+
+color: #fff;
+
+text-transform: uppercase;
+
+font-size: 14px;
+
+background: #0e7fd6;
+
+padding: 0;
+
+padding: 10px 20px;
+}
+.btn-features{
+    
+color: #fff;
+    
+text-transform: uppercase;
+    
+font-size: 16px;
+    
+border: 1px solid #999;
+    
+padding: 0;
+    
+padding: 10px 20px;
+    
+margin-left: 15px;
+}
+.height{
+    min-height: 90vh;
+    align-items: center;
+}
+.phone{
+    
+position: absolute;
+    
+bottom: 0;
+    
+left: 57%;
+    
+right: 9%;
+}
